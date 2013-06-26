@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Weekly Timesheet</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="pretty.css" />
+    </head>
+    <body>
+        <div id="jobnewton-timesheets"><p>v 0.13alpha</p></div>
+        <h4 class="description">Save money, save trees, your employees will love you!</h4>
+        <div id="timesheet">
+        <h1>Weekly Time Sheet <a href="#" id="print-button" class="btn btn-large btn-success float-right">Print Timesheet</a></h1>
+        <span class="today"></span>
+        <div id="employee">
+            <ul id="header">
+                <li><h4>Name of Employee</h4></li>
+                <li><input type="text" name="" id="" /></li>
+                <li><h4>Department</h4></li>
+                <li><input type="text" name="" id="" /></li>
+                <li><h4>For Week Ending</h4></li>
+                <li><input type="text" name="" id="" /></li>
+                <li><h4>Exemptions</h4></li>
+                <li><input type="text" name="" id="" /></li>
+            </ul>
+            <ul id="days">
+                <li>MONDAY</li>
+                <li class="short"><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /></li>
+                <li>TUESDAY</li>
+                <li class="short"><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /></li>
+                <li>WEDNESDAY</li>
+                <li class="short"><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /></li>
+                <li>THURSDAY</li>
+                <li class="short"><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /></li>
+                <li>FRIDAY</li>
+                <li class="short"><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /></li>
+                <li>SATURDAY</li>
+                <li class="short"><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /></li>
+                <li>SUNDAY</li>
+                <li class="short"><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /><input type="text" name="" id="" /></li>
+            </ul>
+            <ul id="timesheet-header" class="clear">
+                <li><h4>Day of the Week</h4></li>
+                <li><h4><span>Morning</span></h4></li>
+                <li><h4><span>Afternoon</span></h4></li>
+                <li><h4><span>Overtime</span></h4></li>
+                <li><h4><span>For Office Use Only</span></h4></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        </div>
+        <p id="copyright">&copy; 2013 JobNewton, Inc</p>
+    </body>
+</html>
